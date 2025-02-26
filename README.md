@@ -1,35 +1,35 @@
 # Screenshot Insight
 
-Screenshot Insight is a Python-based open-source tool that leverages Windows' built-in snipping tool and the advanced OCR/visual analysis capabilities of the GPT-4o model. With just a press of the Print Screen key, you can capture a specific area of your screen and receive a detailed description of its content—including both text and other visual elements.
+Screenshot Insight 是一個基於 Python 的開源工具，利用 Windows 系統內建的截圖工具與 GPT-4o 模型的先進 OCR 與圖像分析能力，讓使用者只需按下 Print Screen 鍵，即可捕捉螢幕上指定的區域，並獲得該區域內文字與其他視覺元素的詳細描述。
 
-## Features
+## 特色
 
-- **Easy Screenshot Capture:**  
-  Press the Print Screen key to trigger the Windows snipping tool and select the desired area.
+- **簡單的截圖捕捉：**  
+  按下 Print Screen 鍵即可啟動 Windows 系統截圖工具，讓你選取所需的截圖區域。
 
-- **Automatic Image Retrieval:**  
-  The tool automatically fetches the captured image from the clipboard once you finish selecting the area.
+- **自動圖像擷取：**  
+  截圖完成後，工具會自動從剪貼簿讀取圖片並進行後續處理。
 
-- **Image Preprocessing:**  
-  The captured image is converted to grayscale and resized proportionally (ensuring that the maximum width or height does not exceed 512 pixels) to optimize it for analysis.
+- **圖像預處理：**  
+  擷取的圖片會先轉換為灰階，再依原始比例縮放（確保寬或高最大不超過 512 像素），以優化後續模型分析的效果。
 
-- **Advanced OCR and Visual Analysis:**  
-  Leverages the GPT-4o model to extract and describe all visible text as well as other key visual elements present in the screenshot.
+- **先進的 OCR 與圖像描述：**  
+  利用 GPT-4o 模型，不僅能準確提取圖片中的文字，還能對包含圖像結構和其他視覺元素的截圖給出詳盡描述，幫助你快速了解截圖中的主要資訊。
 
-- **Lightweight & Open Source:**  
-  Built using Python and various popular libraries, making it easy to install, customize, and extend.
+- **輕量且開源：**  
+  以 Python 與常用開源庫實現，方便安裝、客製化與擴展。
 
-## Installation
+## 安裝
 
-### Prerequisites
+### 先決條件
 
-- **Python 3.8+**  
-- **Windows OS:** Ensure that the Print Screen key is configured to launch the snipping tool.
-- **Git:** (Optional) For version control.
+- **Python 3.8 以上版本**
+- **Windows 作業系統：** 請確保 Print Screen 鍵已設定啟動截圖工具。
+- **Git：** (選用) 方便版本控制與專案管理。
 
-### Dependencies
+### 依賴套件
 
-Install the required packages using pip:
+使用 pip 安裝所需套件：
 
 ```sh
 pip install pillow requests openai python-dotenv keyboard
