@@ -5,7 +5,7 @@ Screenshot Insight 是一個基於 Python 的開源工具，利用 Windows 系�
 ## 特色
 
 - **簡單的截圖捕捉：**  
-  按下 Print Screen 鍵即可啟動 Windows 系統截圖工具，讓你選取所需的截圖區域。
+  按下 Print Screen 鍵即可啟動 Windows 系統截圖工具，可選取所需的截圖區域。
 
 - **自動圖像擷取：**  
   截圖完成後，工具會自動從剪貼簿讀取圖片並進行後續處理。
