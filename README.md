@@ -2,7 +2,7 @@
 
 Screenshot Insight 是一個小型的 Python 專案，利用 Windows 系統內建的截圖工具與 GPT-4o 模型的 OCR 與圖像分析能力，使用者按下 Print Screen 鍵，即可捕捉螢幕上指定的區域，並獲得該區域內文字與其他視覺元素的詳細描述。
 
-## 特色
+## 功能模組
 
 - **截圖捕捉：**  
   按下 Print Screen 鍵即可啟動 Windows 系統截圖工具，可選取所需的截圖區域。
